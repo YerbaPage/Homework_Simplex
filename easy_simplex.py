@@ -19,3 +19,11 @@ d = np.loadtxt("data.txt", dtype=np.float)
 s = list(range(cn-bn,cn-1)) #基变量列表
 solve()
 printSol()
+
+#https://blog.csdn.net/kittyzc/article/details/81707464
+# data.txt: 
+# 1 1 1 1 0 0 0 4
+# 1 0 0 0 1 0 0 2
+# 0 0 1 0 0 1 0 3
+# 0 3 1 0 0 0 1 6
+# 1 14 6 0 0 0 0 0
